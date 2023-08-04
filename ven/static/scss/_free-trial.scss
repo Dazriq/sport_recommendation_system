@@ -1,0 +1,35 @@
+//
+// free-trial.scss
+//
+
+.sign-form {
+  .form-group {
+    position: relative;
+  }
+  .form-control {
+    height: 50px;
+    background-color: transparent;
+    padding: 0 20px 0 50px;
+    font-size: 15px;
+    box-shadow: none;
+    border-color: #e6e6e6;
+    &:focus {
+      border-color: $primary;
+    }
+  }
+}
+
+.sign-form label {
+  position: absolute;
+  top: 25%;
+  font-size: 20px;
+  margin-left: 14px;
+}
+
+.sign-icon {
+  color: #9ba1a8;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}

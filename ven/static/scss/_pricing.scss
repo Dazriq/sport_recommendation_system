@@ -1,0 +1,49 @@
+//
+// pricing.scss
+//
+
+.price-box {
+  position: relative;
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: $box-shadow;
+  .pricing-badge {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    right: 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+    .badge {
+      float: right;
+      transform: rotate(45deg);
+      right: -67px;
+      top: 17px;
+      position: relative;
+      text-align: center;
+      width: 200px;
+      font-size: 13px;
+      margin: 0;
+      padding: 7px 10px;
+      font-weight: 500;
+      color: $white;
+      background: $primary;
+    }
+  }
+}
+
+.pricing-active-color {
+  border-color: $primary;
+}
+
+.pricing-title {
+  font-size: 22px;
+}
+
+.pricing-name {
+  padding: 30px 10px 60px 10px;
+}

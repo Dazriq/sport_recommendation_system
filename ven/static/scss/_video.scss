@@ -1,0 +1,78 @@
+//
+// video.scss
+//
+
+.bg-video {
+  background-image: url(../images/img-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.bg-cta {
+  background-image: url(../images/img-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.play-btn {
+  background-color: $primary;
+  color: $white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.play-shadow {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  width: 82px;
+  height: 82px;
+  margin: 20px auto 0px auto;
+}
+
+.home-modal {
+  border: 0;
+  background-color: transparent;
+  .btn-close {
+    width: 36px;
+    height: 36px;
+    background-color: rgba($white, 0.5);
+    border-radius: 10px;
+    position: relative;
+    top: 70px;
+    z-index: 3;
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+    }
+  }
+  video {
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.video-box {
+  width: 100%;
+}
+
+.video-play-icon {
+  width: 80px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid $white;
+  display: inline-block;
+  line-height: 74px;
+  border-radius: 50px;
+  i {
+    color: $white;
+    font-size: 30px;
+  }
+}

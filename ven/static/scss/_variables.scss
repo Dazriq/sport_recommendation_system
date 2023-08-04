@@ -1,0 +1,62 @@
+//
+// variables.scss
+//
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap');
+
+
+$primary:   #388c7c;
+$success:   #28a745;
+$info:      #17a2b8;
+$warning:   #ffc107;
+$danger:    #dc3545;
+$orange:    #f09105;
+$purple:    #704fff;
+$cyan:      #00e6e6;
+$blue:      #2762da;
+$pink:      #f85f89;
+$white:     #ffffff;
+$dark:      #121f3e;
+$light:     #f5f7fa;
+$muted:     #96a0b5;
+
+// stylelint-disable
+$gray-100: #f8f9fa;
+$gray-200: #efefef;
+$gray-300: #efefef;
+$gray-400: #e6effe;
+$gray-500: #adb5bd;
+$gray-600: #89a2b5;
+$gray-700: #495057;
+$gray-800: #2d2d2d;
+$gray-900: #1d262d;
+
+$colors: (
+    "primary": $primary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "orange": $orange,
+    "dark": $dark,
+    "cyan": $cyan,
+    "blue": $blue,
+    "muted": $muted,
+    "purple": $purple,
+    "pink": $pink,
+    "white": $white,
+    "light": $light
+);
+
+
+// Body Background
+$body-bg:                   #f5f5f5;
+$bg-gradient:               linear-gradient(to right, #512da8, #711e72);
+$box-shadow:                 0 0 20px rgba(0, 0, 0 , 0.06);
+
+
+// Base font
+$font-size-base:            14px;
+
+$font-family-base:          'Poppins', sans-serif;
+$font-family-secondary:     'Roboto', sans-serif;

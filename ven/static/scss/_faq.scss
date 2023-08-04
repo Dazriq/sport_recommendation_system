@@ -1,0 +1,39 @@
+//
+// faq.scss
+//
+
+.faq-box {
+  .accordion-item {
+    border: 1px solid $gray-200;
+    border-radius: 5px;
+    .accordion-button {
+      border: 0px solid $gray-200;
+      padding: 12px 15px;
+      border-radius: 5px 5px 0px 0px;
+      &:after {
+        display: none;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .accordion-collapse {
+      border: none;
+    }
+  }
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-width: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba($primary, 0.1);
+  color: $primary;
+}
+
+
+.featutes-box.active{
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+}

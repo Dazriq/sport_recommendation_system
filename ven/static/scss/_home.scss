@@ -1,0 +1,210 @@
+//
+// home.scss
+//
+
+.bg-home {
+  background-image: url("../images/img-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 280px 0px 270px 0px;
+}
+
+.bg-overlay {
+  background-color: #182223;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-title {
+  line-height: 1.4;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.home-small-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+
+.home-border {
+  border-bottom: 2px solid $white;
+  width: 100px;
+  margin: 0 auto;
+  opacity: 0.6;
+  position: relative;
+  right: 15px;
+
+  &:before {
+    position: absolute;
+    right: -15px;
+    top: 0;
+    content: "";
+    height: 2px;
+    width: 10px;
+    background: $white;
+  }
+}
+
+.home-subtitle {
+  color: rgba($white, 0.8);
+  max-width: 650px;
+}
+
+.home-button {
+  position: relative;
+  a {
+    padding: 5px 5px 5px 20px;
+  }
+
+  .home-btn {
+    width: 40px;
+    height: 40px;
+    background-color: $white;
+    display: inline-block;
+    border-radius: 50%;
+    i {
+      line-height: 40px;
+      color: $primary;
+      font-size: 17px;
+    }
+  }
+}
+
+
+// home-2
+
+.search-form {
+  input {
+      padding: 14px 20px;
+      width: 100%;
+      font-size: 15px;
+      color: $muted !important;
+      border: none;
+      outline: none !important;
+      padding-right: 160px;
+      padding-left: 30px;
+      background-color: $white;
+      border-radius: 30px;
+      box-shadow: $box-shadow;
+  }
+  button {
+      position: absolute;
+      top: 6px;
+      right: 7px;
+      outline: none !important;
+      font-size: 15px;
+      padding: 9px 30px;
+  }
+  form {
+      position: relative;
+      max-width: 600px;
+      margin: 0px auto;
+  }
+  }
+
+
+// home-3
+
+.home-three{
+  background-image: url(../images/img-4.jpg);
+}
+
+
+// home-4
+
+.home-slider {
+  position: relative;
+}
+
+.home-slider .carousel-control-next,
+.carousel-control-prev {
+  width: 6%;
+}
+
+.home-slider .carousel-item,
+.home-slider .carousel {
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+
+.home-slider .carousel-item {
+  background-position: center center;
+  background-size: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: $primary;
+    background-size: 100% 40%;
+    border-radius: 50%;
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+
+
+// home-5
+
+.home-five{
+  background-image: url(../images/img-3.jpg);
+}
+
+
+.slidero {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+// home-6
+
+
+.home-six{
+  background-image: url(../images/img-2.jpg);
+  padding: 220px 0px 170px 0px
+}
+
+.home-registration-form {
+  padding: 40px 35px;
+  border-radius: 3px;
+  box-shadow: $box-shadow;
+  .registration-form {
+    label {
+      font-size: 15px;
+    }
+  }
+}
+
+.registration-form{
+
+  .registration-input-box {
+    border: none;
+    border-radius: 0px;
+    color: $muted;
+    border-bottom: 1px solid #c5c5c5;
+    box-shadow: none !important;
+    padding-left: 0;
+    padding-right: 0;
+    &:focus{
+      border-color: $primary;
+    }
+  }
+
+}
+
