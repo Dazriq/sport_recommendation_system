@@ -1,0 +1,53 @@
+//
+// footer.scss
+//
+
+.bg-footer {
+  background: #132527;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.footer-link {
+  a {
+    color: rgba($white, 0.5);
+    line-height: 38px;
+    font-size: 15px;
+    -webkit-transition: all 0.5s;
+    background-color: transparent;
+    transition: all 0.5s;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.footer-email {
+  input {
+    padding: 12px 8px;
+    width: 100%;
+    font-size: 17px;
+    color: $muted;
+    border: none;
+    border-bottom: 2px solid rgba($primary, 0.4);
+    outline: none !important;
+    background-color: transparent;
+    padding-right: 80px;
+    &::placeholder {
+      color: $muted;
+    }
+  }
+  button {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    outline: none !important;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 5px 15px;
+  }
+  form {
+    position: relative;
+    max-width: 600px;
+  }
+}
