@@ -1,0 +1,65 @@
+//
+// clients.scss
+//
+
+.bg-client {
+  background: url(../images/overlay-2.png);
+  background-position: center;
+}
+
+.client-img {
+  img {
+    border-radius: 10px;
+  }
+}
+
+.testi-img {
+  border-radius: 5px;
+}
+
+.client-box {
+  .client-content {
+    flex: 1;
+  }
+
+  .client-title {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .client-icon {
+    i {
+      font-size: 70px;
+      color: $primary;
+    }
+  }
+}
+
+// carousel
+.carousel-indicators {
+  background-color: $white;
+  align-items: center;
+  position: absolute;
+  right: auto;
+  left: 150px;
+  margin-right: 0;
+  margin-left: 0;
+  bottom: 20px;
+  padding: 0px 5px;
+  box-shadow: $box-shadow;
+  li {
+    width: 50px;
+    height: 50px;
+    margin: 10px 5px;
+    border: 5px solid transparent;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .active {
+    opacity: 1;
+    border: 3px solid $primary;
+    z-index: 3;
+    border-radius: 7px;
+  }
+}

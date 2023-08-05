@@ -1,0 +1,53 @@
+//
+// responsive.scss
+//
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .navbar-custom {
+    background-color: #223b40;
+    padding: 10px 0px !important;
+    box-shadow: $box-shadow;
+    .custom-menu {
+      box-shadow: none;
+    }
+    .navbar-nav {
+      li {
+        a {
+          padding: 10px 0px;
+        }
+      }
+    }
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .navbar-toggler {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .work-border {
+    &:before {
+      display: none;
+    }
+    &:after {
+      display: none;
+    }
+  }
+}
+
+@media (max-height: 480px) {
+  .navbar-nav {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
